@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qr Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Qr_code_generator.js" defer></script>
+</head>
+
+<body>
+    <div class="container gradient-border">
+        <div class="box">
+            <section class="upper">
+                <h1>Qr Code Generator</h1>
+                <p>Paste a Url or Enter Text to Create Qr Code</p>
+            </section>
+            <form id="qrForm">
+                <div class="input-box">
+                    <div class="input-group">
+                        <input name="qrText" type="text" id="myInput" class="input-group__input" placeholder="Enter text or url" />
+                    </div>
+                </div>
+                <button class="glow-on-hover" type="button">Generate</button>
+            </form>
+            <section id="qrContainer" class="qr_container">
+                <img id="qrImage" src="qr-code.png" alt="">
+            </section>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
